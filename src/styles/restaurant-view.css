@@ -1,0 +1,439 @@
+
+
+.img{
+    width: 100%;
+    height: 100%;
+    /* object-fit:contain; */
+}
+.paragraph{
+    margin: auto;
+}
+
+.restaurant-view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: yellow;
+    padding: 100px 0px 0px 10px;
+    /* margin-top: 100px; */
+}
+
+.restaurant-carousal-container{
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    height: 25%;
+    /* padding: 0px 150px; */
+    /* background-color:purple; */
+    margin-top: 100px;
+
+}
+.carousel-item{
+    /* background-color: purple; */
+    /* padding: 10px 50px; */
+    width: 100%;
+    height: 500px;
+    object-fit:scale-down;
+
+}
+.restaurant-data-container{
+     display: flex; 
+     /* align-items: center;  */
+     justify-content: center; 
+    width: 100%;
+    height: 25%;
+    background-color:green;
+}
+.restaurant-data-rating-container{
+
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding-left:100px ; */
+    background-color:grey;
+    width:85%;
+
+}
+.restaurant-data{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding:20px 40px;
+    background-color:blue;
+    /* max-width: 300px;
+    word-wrap: break-word; */
+    width:100%;
+
+}
+#restaurant-type{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+}
+.restaurant-data h2{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Lora', serif;
+}
+.timing span{
+    
+    font-size: 20px;
+    color: rgb(185, 181, 181);
+
+}
+.timing p{
+      
+    font-size: 20px;
+    color: rgb(185, 181, 181);
+
+}
+.timing-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* width: 100%;
+    height: 25%; */
+    /* background-color:antiquewhite */
+
+}
+.clock-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    /* margin-left: -5px; */
+    /* background-color:orange; */
+    padding: 2px solid red;
+    margin-right: 8px;
+    
+}
+.clock-img-container span{
+    /* font-size: 20px; */
+    font-weight: bold;
+   
+ 
+}
+
+
+.rating-images-conatiner{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3px;
+    /* background-color:blue;  */
+
+}
+
+.menu-filters-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    /* height: 8%; */
+    padding-top: 10px ;
+    background-color:brown;
+    border-bottom: 1px solid grey;
+
+}
+.menu-filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: orange; */
+    /* margin-left: 345px; */
+   
+   
+}
+.menu-type-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+     justify-content: space-around;
+    /* background-color:aqua; 
+     */
+    
+
+    padding: 10px;
+    
+    
+
+}
+.menu-type-container a{
+    text-decoration: none;
+    /* padding: 5px; */
+    /* background-color: #919191; */
+   /* border: 2px solid red; */
+    margin: 0px 10px;
+    /* padding: 8px; */
+    width: 120px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+   
+
+}
+.menu-type-container a:hover{
+    cursor: pointer;
+   border-bottom: 2px solid red;
+}
+.menu-type-container button{
+    padding: 0;
+    border: none;
+    background: none;
+    font-weight:bold;
+    color: black;
+    font-size: 18px;
+    border: none;
+}
+.menu-type-container button{
+    cursor: pointer;
+}
+
+.restaurant-menu-and-fliters-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 25%; */
+    padding: 10px;
+    background-color:purple;
+
+}
+.filters-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    background-color:pink;
+
+}
+
+
+.menu-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color:white;
+
+}
+.menu-card-container{
+    padding: 8px;
+    margin:10px 10px;
+   
+
+}
+.menu-card-container:hover{
+    /* border: 1px solid black; */
+    /* cursor: pointer; */
+   
+    box-shadow: 0px 0px 2px 1px rgb(118, 118, 118);
+}
+.menu-card{
+    display: flex;
+    border: 1px solid rgb(201, 201, 201);
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 320px;
+    height: 400px; */
+    /* background-color:rgb(206, 200, 200); */
+    border-radius: 20px;
+    /* background-color:antiquewhite */
+    box-shadow: 0px 0px 4px 2px rgb(223, 223, 223);
+    
+
+}
+
+.menu-card-image-container{
+    width: 320px;
+    height: 150px;
+    /* background-color:red; */
+    border-radius: 20px;
+}
+.menu-card-image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px  ;
+
+}
+
+.menu-card-data-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding-bottom: 10px;
+    width: 100%;
+     /* height: 28%; */
+    /* background-color:green; */
+    /* border-radius: 0px 0px 20px 20px; */
+
+
+}
+.menu-card-data-rating{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+      padding: 8px 0px 3px 0px;
+    /* width: 90%; */
+    /* height: 28%; */
+    /* background-color:aqua; */
+    margin:0px 10px 0px 6px;
+  
+
+}
+.menu-name{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+   /* padding-left: 10px; */
+    
+    /* background-color:purple; */
+    max-width: 190px;
+    word-wrap: break-word;
+    /* word-break: break-all; */
+}
+.menu-name span{
+    font-size: 13.3px;
+    font-weight: bold;
+
+}
+.menu-name img{
+    height: 13px;
+    width: 13px;
+    margin-left: 8px;
+    /* background-color: yellow; */
+    margin-top: 3px;
+    
+}
+
+.menu-rating{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+
+    
+    /* background-color:red; */
+
+}
+.menu-rating span{
+    font-size: 13.3px;
+    font-weight: 500;
+
+}
+.menu-price-and-add-btn{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* padding: 8px 0px 0px  0px; */
+    
+    /* background-color:rgb(38, 148, 245); */
+    margin:0px 10px 0px 6px;
+
+}
+.menu-price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu-price p{
+    font-size: 13.3px;
+    font-weight:500;
+    
+    margin:0px;
+    /* background-color: red; */
+
+}
+.add-btn{
+   
+    /* align-items: center; 
+     justify-content: center;
+    background-color: orange;  */
+    /* border: 2px solid red solid red; */
+    /* padding: 10px;*/
+    
+}
+.add-btn a{
+    text-decoration: none;
+    /* padding: 5px; */
+    /* background-color:red; */
+   /* border: 2px solid red solid green; */
+   border-radius: 10px;
+    /* padding: 8px; */
+    width: 68px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+
+.add-btn button{
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13.3px;
+    font-weight: 500;
+    color: orange;
+    
+}
+.add-btn button:hover{
+    cursor: pointer;
+}
+.menu-desc-container{
+    
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 0px 10px 8px 6px;
+   background-color: yellow;
+   max-width: 320px;
+   border-radius: 0px 0px 20px 20px;
+  
+    
+    
+}
+
+.menu-desc{
+   
+    /* background-color: purple */
+
+}
+.menu-desc p{
+    margin: auto;
+    font-size: 13px;
+    font-weight:250;
+    letter-spacing: 0.1px;
+}

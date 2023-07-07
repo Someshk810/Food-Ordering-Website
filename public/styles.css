@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+/* Header */
+.navbar{
+    /* background-color:orange; */
+    /* display: flex; */
+
+}
+.navbar a{
+    color:black;
+}
+.navbar a:hover{
+    /* background-color: yellow; */
+    color: rgb(101, 32, 32);
+}
+
+
+

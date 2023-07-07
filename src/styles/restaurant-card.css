@@ -1,0 +1,173 @@
+/* Restaurant Card */
+
+.restaurant-card-container{
+    display:flex;
+    flex-direction:column;
+    /* align-items:center; */
+    justify-content:center;
+    /* background-color:yellow; */
+    border:2px solid red;
+    width:300px;
+    padding: 10px;
+
+}
+
+.image-container{
+    display:flex;
+    height: 250px;
+    width:100% ;
+   
+    align-items:center;
+    /* justify-content:center; */
+   /* background-color:blue; */
+}
+.image-container img{
+    width:100% ;
+    height: 100%;
+       
+         /* border-radius:10px; */
+}
+
+
+
+.restaurant-name-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    padding: 10px 10px 2px 0px;
+}
+.restaurant-name{
+    /* background-color: aqua; */
+   
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+.restaurant-type{
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+ 
+    /* background-color: aqua; */
+    /* padding: 10px 0px 2px 25px; */
+
+      
+}
+
+.restaurant-type span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.restaurant-category{
+    /* display:flex;
+    flex-direction:row;
+    align-items:center; */
+/*     
+    background-color: brown; */
+    /* padding: 0px 40px; */
+    font-size: 14px;
+    
+}
+.restaurant-category p{
+    font-size: 14px;
+    margin: auto 0px;
+
+}
+
+.restaurant-info-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+   /* background-color:rgb(0, 255, 85); */
+   width: 100%;  
+   padding: 20px 0px; 
+}
+
+.restaurant-info p{
+    font-size: 14px;
+    font-weight: 500;
+    margin:  auto 0px;
+   
+}
+
+.rating{
+ 
+ /* background-color: #3AB757; */
+ font-size: 14px;
+ font-weight: 500;
+ display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    padding:  0px 8px;
+
+}
+.time{
+    font-size: 14px;
+
+}
+.price{
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    /* margin: auto; */
+  
+   
+    padding: 0px;
+}
+
+.offers{
+ /* background-color: red; */
+ display:flex;
+ flex-direction:row;
+ align-items:center;
+ /* justify-content: center; */
+}
+.offers p{
+    /* padding: 5px; */
+    font-size: 16px;
+    margin: auto 0px;
+    color:rgb(224, 55, 55)
+}
+.offers span{
+    color:rgb(109, 6, 6)
+}
+.offers span:hover{
+    color:rgb(164, 101, 101);
+    cursor: pointer;
+}
+
+.quick-view{
+    /* background-color: blanchedalmond; */
+    display:flex;
+ flex-direction:row;
+ align-items:center;
+ justify-content: center;
+}
+.quick-view p{
+    /* padding: 5px; */
+   
+    font-size: 16px;
+    font-weight: 500;
+    margin:  auto 0px;
+}
+
+.quick-view p:hover{
+    cursor: pointer;
+    color: rgb(156, 114, 114);
+}
+
+.hr-tag{
+    border: 1px solid grey;
+    margin:0px;
+}
+.vertical-hr{
+      height: 15px;
+      border-left: 2px solid grey;
+}
